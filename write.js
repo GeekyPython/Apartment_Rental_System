@@ -3,9 +3,9 @@ var express = require('express');
 
 var app = express();
 var con = mysql.createConnection({
-    host:"localhost",
-    username: "root@localhost",
-    password: "monkey@201",
+    host:"",
+    username: "root",
+    password: "",
     database: "arcs"
 });
 
