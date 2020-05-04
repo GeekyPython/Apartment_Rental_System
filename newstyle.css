@@ -1,0 +1,18 @@
+footer {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  footer button {
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  footer button a {
+    color: wheat;
+    text-decoration: none;
+}
