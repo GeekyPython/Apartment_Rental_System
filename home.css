@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* Mobile Mode */
+
+@media screen and (max-width: 600px){
+body{
+    font-family: Montserrat;
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header
+{
+    background-color:  rgb(42, 115, 158);
+    height: 50px;
+    border-radius: 5px;
+}
+
+header ul{
+
+    list-style: none;
+    /*float: right;*/
+    text-align: right;
+    padding: 12px;
+    
+}
+
+header ul li{
+    display: inline;
+    padding: 5px 5px 0px 0px;
+}
+
+
+footer
+{
+    background-color:rgb(44, 48, 46);
+    height: 50px;
+    border-radius: 5px;
+    bottom: 0%  !important;
+}
+
+footer ul{
+    padding-top:10px;
+    list-style: fill;
+    text-align: center;
+    
+}
+
+footer ul li{
+    display: inline;
+    padding: 15px;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+a:hover{
+    color: black !important;
+}
+
+header img{
+    padding:10px 0px 0px 10px;
+}
+
+
+.map
+{
+    padding: 1% 1% 1% 1%; 
+    width: 45%;
+    height: 50%;
+}
+
+.video
+    {
+        
+        padding: 1% 1% 1% 1%;
+        height: 50%;
+        width: 45%
+    }
+
+}
+
+/* Tablet Mode */
+
+@media screen and (min-width: 601px) and (max-width: 767px)
+{
+    body{
+        font-family: Montserrat;
+        background-image: url("Background.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    header
+    {
+        background-color:  rgb(30, 105, 68);
+        height: 50px;
+        border-radius: 5px;
+    }
+    
+    header ul{
+    
+        list-style: none;
+        /*float: right;*/
+        text-align: right;
+        padding: 12px;
+        
+    }
+    
+    header ul li{
+        display: inline;
+        padding: 5px 5px 0px 0px;
+    }
+    
+    
+    footer
+    {
+        background-color: rgb(44, 48, 46);
+        height: 50px;
+        border-radius: 5px;
+        bottom: 0;
+    }
+    
+    footer ul{
+        padding-top:10px;
+        list-style: none;
+        text-align: center;
+        
+    }
+    
+    footer ul li{
+        display: inline;
+        padding: 15px;
+    }
+    
+    img:hover{
+        opacity: 0.5;
+    }
+    
+    a:hover{
+        color: black !important;
+    }
+    
+    header img{
+        padding:10px 0px 0px 10px;
+    }
+    
+    
+    .map
+    {
+        padding: 2% 3% 2% 2%; 
+        width: 40%;
+        height: 48%;
+    }
+
+    .video
+    {
+        float: right;
+        padding: 2% 2% 2% 0%;
+        height: 48%;
+    }
+}
+
+/* Desktop Mode */
+
+@media screen and (min-width: 768px)
+{
+    body{
+        font-family: Montserrat;
+        background-image: url("Background.jpg");
+        background-size: unset;
+    }
+    
+    header
+    {
+        background-color: rgb(44, 48, 46);
+        height: 50px;
+        border-radius: 5px;
+    }
+    
+    header ul{
+    
+        list-style: none;
+        /*float: right;*/
+        text-align: right;
+        padding: 12px;
+        
+    }
+    
+    header ul li{
+        display: inline;
+        padding: 5px 5px 0px 0px;
+    }
+    
+    
+    footer
+    {
+        background-color: rgb(44, 48, 46);
+        height: 50px;
+        border-radius: 5px;
+        bottom: 0;
+    }
+    
+    footer ul{
+        padding-top:10px;
+        list-style: none;
+        text-align: center;
+        
+    }
+    
+    footer ul li{
+        display: inline;
+        padding: 15px;
+    }
+    
+    img:hover{
+        opacity: 0.5;
+    }
+
+    a:hover{
+        color: black !important;
+    }
+    
+    header img{
+        padding:10px 0px 0px 10px;
+    }
+    
+    
+    .map
+    {
+        padding: 2% 3% 2% 2%; 
+        width: 48%;
+    }
+
+    .video
+    {
+        float: right;
+        padding: 2% 2% 2% 0%;
+        height: 55%;
+    }
+}
+
+.column{
+    float: left;
+    width: 32.8%;
+    padding-left: .1%;
+    color: aliceblue;
+    text-align: center;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: aliceblue;
+    background-color: grey;
+    opacity: 100%;
+    font-size: 12px;
+}
+
+.column a:link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.column a:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.column a:visited{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.column a:active{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.column ul{
+    list-style: none;
+    align-self: center;
+    padding-right: 6%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;    
+}
+
+.deftext{
+    padding-left: 2%;
+    color: aliceblue;
+    font-size:  20px;
+}
